@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://res.cloudinary.com/dx0toqzvu/$1"
+      "destination": "https://res.cloudinary.com/do9sspgow/$1"
     }
   ],
   "headers": [
@@ -21,3 +21,4 @@
     }
   ]
 }
+
