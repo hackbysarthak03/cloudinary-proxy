@@ -4,5 +4,20 @@
       "source": "/(.*)",
       "destination": "https://res.cloudinary.com/dx0toqzvu/$1"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "X-Robots-Tag",
+      "value": "index, follow"
+    }
+  ]
+    }
   ]
 }
